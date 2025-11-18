@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect, useMemo, useCallback } from 
 import axios from 'axios';
 
 const AuthContext = createContext();
-const API_URL = 'https://taskmaster-backend-1y2z.onrender.com/api/auth'; 
+const API_URL = 'https://taskmaster-backend-1-mg1r.onrender.com/api/auth'; 
 
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
